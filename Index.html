@@ -9,7 +9,7 @@
 		.navbar{
 			background-color: #2C3E50;
 			width:1000px;
-			min-height:10%;
+			min-height:50px;
 			border-radius: 10px;
 			position:absolute;
 			top: 10px;
@@ -17,14 +17,10 @@
 		}
 
 		.brand{
-
+			color: #ECF0F1;
 			font-size:16px;
 			font-weight:bold;
-		}
-
-		a {
-			text-decoration:none;
-			color: #ECF0F1;
+			margin-left:-10px;
 		}
 
 		body {
@@ -32,12 +28,35 @@
       		color: #5a5a5a;
     	}
 
-    	div ul li{
-    		display: inline-block;
-    		border: 1px;
-    		border-color: gray;
-    		width: 100px;
+    	a{
+    		text-decoration:none;
+    		color: inherit;
+    		vertical-align: middle;
     	}
+
+    	a:hover{
+    		color: #ECF0F1;
+    	}
+
+    	.container{
+
+    		display: inline-block;
+    		padding-left:10px;
+    		padding-right:10px;
+    		min-height:25px;
+    		
+    	}
+
+    	 .container:nth-child(2) {
+    		border-left: solid #BDC3C7;
+    		border-left-width: 2px;	
+    		padding-left:20px;
+    	}
+
+    	.inner-nav{
+    		margin-left:15px;
+    		padding:20px;
+    	}   
 
 	</style>
 	</head>
@@ -46,12 +65,44 @@
 
 	<body>
 		<div class="navbar"> 
-			<a class="brand" href="#">Qurio</a>
-			<ul style="list-style-type: none;margin:50px;padding:20px;">
-				<li>Speaker</li>
-				<li>Audience</li>
-				<li>Download</li>
-			</ul>
+			<div class = "inner-nav">
+				<div class="container">
+					<a href="#" class="brand"> Qurio </a>
+				</div>
+				<div class="container">
+					<a href="#"> Speaker </a>
+				</div>
+				<div class="container">
+					<a href="#"> Audience </a>
+				</div>
+				<div class="container">
+					<a href="#"> Download </a>
+				</div>
+			</div>
 		</div>
+
+<!-- Create Basic Background Image --> 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</body>
 </html>
