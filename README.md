@@ -1,4 +1,0 @@
-Qurio
-=====
-
-First Project Qurio
