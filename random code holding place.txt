@@ -1,0 +1,6 @@
+<div class="bg-img" style="background:url('file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Speaker.jpg')">
+
+
+
+
+			<img src="file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Lecture Audience.jpg">

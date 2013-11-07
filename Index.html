@@ -8,12 +8,16 @@
 	<style>
 		.navbar{
 			background-color: #2C3E50;
-			width:1000px;
-			min-height:50px;
+			background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2C3E50), color-stop(100%,rgba(229,229,229,1)));
+			opacity:0.8;
+			width:1920px;
+			min-height:40px;
 			border-radius: 10px;
 			position:absolute;
-			top: 10px;
-			left: 200px;
+			top: 20px;
+			left: 50px;
+			margin-right:50px;
+			z-index:10;
 		}
 
 		.brand{
@@ -26,11 +30,12 @@
 		body {
       		padding-bottom: 40px;
       		color: #5a5a5a;
+      		font-family:Helvetica;
     	}
 
     	a{
     		text-decoration:none;
-    		color: inherit;
+    		color: #B7C7CC;
     		vertical-align: middle;
     	}
 
@@ -55,8 +60,77 @@
 
     	.inner-nav{
     		margin-left:15px;
-    		padding:20px;
+    		padding:10px;
     	}   
+
+    	.bg-img{
+    		background:url("file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Lecture Audience Crop 1.jpg");
+    		background-size:cover;
+    		background-repeat:no-repeat;
+    		width: 100%;
+    		height: inherit;
+    		position:fixed;
+    		top:0;
+    		left:0px;
+    	}
+
+    	.section{
+    		min-height: 25%;
+    		min-width: 1024px;
+    		width:100%;
+    		height:700px;
+    		border-bottom: solid;
+    		border-bottom-color: #BDC3C7;
+    		border-bottom-width:3px;
+    		position:relative;
+    		overflow:hidden;
+    	 }
+
+    	 .section img{
+    	 	width:100%;
+    	 	height:auto;
+    	 }
+
+    	 .simple-btn{
+
+    	 }
+
+    	 .section-title{
+    	 	line-height:1.5;
+    	 	font-size:50px;
+    	 	color:#BDC3C7;
+    	 	text-shadow:0, 1px white, 1px rgba(0,0,0,.4);
+    	 	font-weight:bold;
+
+    	 }
+
+    	 .section-caption{
+    	 	position:relative;
+    	 	left:50px;
+    	 	top:100px;
+    	 	width:750px;
+    	 	height:auto;
+    	 	line-height:1.25;
+    	 	font-size:30px;
+    	 	padding: 20px 20px;
+    	 	color:#ECF0F1;
+    	 	background:rgba(44,62,80,.75);
+    	 	*background:transparent;
+    	 	border-radius: 10px;
+    	 	z-index:2;
+    	 }
+
+    	 .highlight-box{
+    	 	position:fixed;
+    	 	left:50px;
+    	 	top:125px;
+    	 	width:100%;
+    	 	height:100%;
+    	 	background-color: gray;
+    	 	opacity: 0.5;
+    	 	border-radius:10px;
+    	 	z-index:1;
+    	 }
 
 	</style>
 	</head>
@@ -76,14 +150,27 @@
 					<a href="#"> Audience </a>
 				</div>
 				<div class="container">
-					<a href="#"> Download </a>
+					<a href="#"> Contact us </a>
 				</div>
 			</div>
 		</div>
 
 <!-- Create Basic Background Image --> 
 
-	
+		<div class="section">
+			<div class="bg-img">	
+					<!--<div class="highlight-box"></div>-->
+					<div class ="section-caption">
+						<h1 class="section-title">Know Your Audience</h1>
+						<p>Ever wonder what your audience is thinking? Qurio gathers live questions and comments from your audience, no registration necessary.</p>
+						<a class="simple-btn" href="#">Start a Session Now</a>
+					</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<p> please show up below each other</p>
+		</div>
 
 
 
