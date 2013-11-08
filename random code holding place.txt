@@ -4,3 +4,5 @@
 
 
 			<img src="file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Lecture Audience.jpg">
+
+			min-height:50px;
