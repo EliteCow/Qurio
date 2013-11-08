@@ -9,7 +9,7 @@
 		.navbar{
 			background-color: #2C3E50;
 			background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2C3E50), color-stop(100%,rgba(229,229,229,1)));
-			opacity:0.8;
+			opacity:0.9;
 			width:1920px;
 			min-height:40px;
 			border-radius: 10px;
@@ -37,18 +37,25 @@
     		text-decoration:none;
     		color: #B7C7CC;
     		vertical-align: middle;
+            font-size:24px;
     	}
 
     	a:hover{
     		color: #ECF0F1;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
     	}
+
+        .container a{
+            vertical-align:bottom;
+        }
 
     	.container{
 
     		display: inline-block;
     		padding-left:10px;
     		padding-right:10px;
-    		min-height:25px;
+            line-height:50px;
+    		
     		
     	}
 
@@ -59,19 +66,18 @@
     	}
 
     	.inner-nav{
-    		margin-left:15px;
-    		padding:10px;
+    		/*margin-left:15px;*/
+    		padding-left:10px;
+            padding-bottom:10px;
     	}   
 
     	.bg-img{
-    		background:url("file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Lecture Audience Crop 1.jpg");
+    		background:url("http://farm4.staticflickr.com/3766/10722241455_d887cc2a3c_o.jpg");
     		background-size:cover;
     		background-repeat:no-repeat;
     		width: 100%;
     		height: inherit;
-    		position:fixed;
-    		top:0;
-    		left:0px;
+            position: relative;
     	}
 
     	.section{
@@ -92,8 +98,20 @@
     	 }
 
     	 .simple-btn{
-
+            position:absolute;
+            /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34495e), color-stop(100%,#7ed8e8));*/
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(48%,#2989d8), color-stop(100%,#7db9e8)); 
+            left:50px;
+            top:450px;
+            padding:20px;
+            border-radius:10px;
+            border: outset;
+            border-color:"White";
     	 }
+
+         .simple-btn:hover{
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+         }
 
     	 .section-title{
     	 	line-height:1.5;
@@ -105,9 +123,9 @@
     	 }
 
     	 .section-caption{
-    	 	position:relative;
+    	 	position:absolute;
     	 	left:50px;
-    	 	top:100px;
+    	 	top:150px;
     	 	width:750px;
     	 	height:auto;
     	 	line-height:1.25;
@@ -117,21 +135,14 @@
     	 	background:rgba(44,62,80,.75);
     	 	*background:transparent;
     	 	border-radius: 10px;
-    	 	z-index:2;
     	 }
 
-    	 .highlight-box{
-    	 	position:fixed;
-    	 	left:50px;
-    	 	top:125px;
-    	 	width:100%;
-    	 	height:100%;
-    	 	background-color: gray;
-    	 	opacity: 0.5;
-    	 	border-radius:10px;
-    	 	z-index:1;
-    	 }
-
+        .logo{
+            background:transparent;
+            padding:0px;
+            position:relative;
+            top:20px;
+        }
 	</style>
 	</head>
 
@@ -141,7 +152,7 @@
 		<div class="navbar"> 
 			<div class = "inner-nav">
 				<div class="container">
-					<a href="#" class="brand"> Qurio </a>
+					<a href="#" style="font-size:0"><img class="logo" src="file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Logo.png"> </a>
 				</div>
 				<div class="container">
 					<a href="#"> Speaker </a>
@@ -162,9 +173,10 @@
 					<!--<div class="highlight-box"></div>-->
 					<div class ="section-caption">
 						<h1 class="section-title">Know Your Audience</h1>
-						<p>Ever wonder what your audience is thinking? Qurio gathers live questions and comments from your audience, no registration necessary.</p>
-						<a class="simple-btn" href="#">Start a Session Now</a>
+						<p>Ever wonder what your audience is thinking? Qurio helps you gather their questions and comments, no registration necessary.</p>
 					</div>
+                    <a href="#" style="display:block">
+                        <div class="simple-btn"><p style="color:#ECF0F1">Start a Session Now</p></div></a>    
 			</div>
 		</div>
 
