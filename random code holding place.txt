@@ -6,3 +6,11 @@
 			<img src="file://localhost//Users/RogerKao/Dropbox/Code/Qurio/Qurio/Qurio/Photos/Lecture Audience.jpg">
 
 			min-height:50px;
+
+			 style="display:block"
+
+
+<a class="section-link" href="#Speaker">
+                        <div class="simple-btn"><p style="color:#ECF0F1;text-decoration:underline;line-height:1.25" align="center">I'm a Speaker<br></p><p style="color:#ECF0F1">Start a Session Now</p></div></a>
+                    <a class="section-link" href="#Audience">
+                        <div class="simple-btn"><p style="color:#ECF0F1;text-decoration:underline;line-height:1.25" align="center">I'm a Listener<br></p><p style="color:#ECF0F1">Join a Session Now</p></div></a>
