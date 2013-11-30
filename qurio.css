@@ -45,6 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+<<<<<<< HEAD
 }
 
 .navbar{
@@ -203,3 +204,6 @@ a:hover{
     color:#ECF0F1;
     bottom:5px;
 }
+=======
+}
+>>>>>>> 789c29eec0e8067a8f6f1f11cc7ad719019e44e2
